@@ -2,7 +2,7 @@
 import './App.css';
 import { useEffect,useState } from 'react';
 import MillonImage from "./MillonImage";
-import createModule from './add.js';
+import createModule from './wasm/add.js';
 
 //1.构建wasm模块加载Promise
 const AddPromise = createModule({
