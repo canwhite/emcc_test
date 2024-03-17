@@ -1,7 +1,7 @@
 
 /* eslint-disable */
 var createModule = (() => {
-  var _scriptDir = "./add.wasm";
+  var _scriptDir = import.meta.url;
   
   return (
 function(moduleArg = {}) {
